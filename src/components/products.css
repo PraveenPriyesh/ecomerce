@@ -1,0 +1,73 @@
+.card {
+    width: 100%; /* Full width of its container */
+    max-width: 18rem; /* Max width to ensure uniformity */
+    height: 30rem; /* Fixed height for uniformity */
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    margin-top: 1rem;
+    position: relative;
+    transition: transform 0.2s ease-in-out; /* Smooth transition */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.card-img {
+    height: 15rem; /* Fixed height for images */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    width: 100%; /* Ensures the image takes the full width of the card */
+    margin-bottom: 1rem; /* Adds space between the image and card body */
+}
+
+.card-body {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    position: relative;
+}
+
+.card-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem; /* Adjust font size as needed */
+}
+
+.card-text {
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.card-button {
+    margin-top: auto;
+}
+
+/* Style for the title popup */
+.title-popup {
+    position: absolute;
+    top: 10px; /* Adjust the distance from the top */
+    right: 10px; /* Adjust the distance from the right */
+    background: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    z-index: 10;
+    width: auto;
+    max-width: 80%; /* Limit the width to avoid overflow */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.addtocart{
+    background-color: cadetblue;
+    width: 300px;
+    height: 100%;
+}
