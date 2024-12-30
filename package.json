@@ -20,7 +20,7 @@
     "path": "^0.12.7"
   },
   "scripts": {
-    "start": "node database.js",
+    "start": "node src/components/backend/database.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
