@@ -18,10 +18,10 @@
   },
   "scripts": {
     "scripts": {
-    "start": "node database.js",  // Make sure this points to your main server file
-    "build": "react-scripts build",  // If needed for React (Frontend)
-    "test": "react-scripts test",    // If needed for React (Frontend)
-    "eject": "react-scripts eject"   // If needed for React (Frontend)
+    "start": "node database.js",  
+    "build": "react-scripts build",  
+    "test": "react-scripts test",   
+    "eject": "react-scripts eject"  
   },
   
   "eslintConfig": {
