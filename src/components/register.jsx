@@ -37,7 +37,7 @@ const Register = () => {
 
         const payload = { userId, password };
         try {
-            const res = await axios.post('http://localhost:3000/api/update-user', payload);
+            const res = await axios.post('https://ecomerce-2-985z.onrender.com/api', payload);
             if(!existingUser){
                 alert('Saved successfully');
             }
