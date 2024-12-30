@@ -11,7 +11,7 @@ const DATA_FILE = path.join(__dirname, './users.json');
 // Middleware
 app.use(bodyParser.json());
 app.use(cors({
-    origin: 'http://localhost:3000', // Your frontend URL
+    origin: 'http://localhost:3001', // Your frontend URL
 }));
 
 // Function to read users from the JSON file
